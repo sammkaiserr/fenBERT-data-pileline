@@ -1,0 +1,23 @@
+# ============================================================
+# Financial News Sentiment Analyzer — Dependencies
+# ============================================================
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# RSS Feed Parsing
+feedparser==6.0.12
+
+# HTTP Requests (web scraping + RSS fetching)
+requests==2.34.2
+
+# HTML Parsing (article text extraction)
+beautifulsoup4==4.15.0
+lxml==6.1.1
+
+# Data Processing & CSV Output
+pandas==3.0.3
+
+# FinBERT Sentiment Analysis (Hugging Face + PyTorch)
+transformers==5.13.0
+torch==2.13.0
+tokenizers==0.22.2
